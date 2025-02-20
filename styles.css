@@ -1,0 +1,26 @@
+/* responsive card layout using flexbox */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    }
+.card{
+    background-color: #fff;
+    border: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    }
+.card p{
+    color: #555;
+    line-height: 1.6;
+}
+.card h3{
+    margin-top: 0;
+    font-size: 1.5em;
+}
